@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "[*] Installing Strong ECC Generator CLI…"
