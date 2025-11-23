@@ -1,29 +1,36 @@
-What It Does
-This generator forms an entire Public Key Infrastructure (PKI) system, including:
-✔️ Quantum-resistant ECC key creation (depending on curves used)
-✔️ Root CA initialization
-✔️ Intermediate CA generation
-✔️ End-certificate creation/signing
-✔️ Automated CRL generation
-✔️ OCSP responder stubs (can be extended into a full responder)
-✔️ Bundle creation for deployment
-✔️ macOS installer package for enterprise deployment
-✔️ Full Maven build pipeline
-✔️ Full source code for auditing and enterprise compliance
-What It Can Be Used For
-This can be turned into:
-🏢 An enterprise PKI product for:
-Corporations
-Government agencies
-SaaS platforms
-Zero-trust architecture providers
-🔐 Security vendors for:
+Enterprise-Grade ECC Certificate Authority Generator™
+Author: Devin B. Royal
+Copyright © 2025
+All Rights Reserved
+Overview
+The Enterprise-Grade ECC Certificate Authority Generator™ is a complete PKI suite implementing:
+Root CA Initialization
+Intermediate CA Issuance
+End-Entity Certificate Signing
+ECC Key Generation
+CRL Issuance
+OCSP Responder (stub)
+Certificate Bundling
+macOS PKG Installer
+Maven Build Pipeline
+Zero-telemetry, closed-source, offline-capable architecture
+This suite allows organizations to operate an internal certificate authority with full sovereignty over:
 Device identity
-TLS/HTTPS issuance
+Application security
 Secure firmware signing
-IoT device onboarding
-Developer certificate generation
-📦 Commercial product offerings:
-Per-server licensing
-Annual subscription to your CA suite
-Paid upgrades (advanced OCSP, dashboards, enterprise UI, HSM integration)
+TLS/HTTPS
+IoT onboarding
+Internal cryptographic infrastructure
+Features
+Full Java source code included
+Uses secure modern ECC algorithms
+Extendable OCSP responder
+CLI automation through build.sh
+Fully packaged macOS installer
+Enterprise-grade directory structure
+Production-ready, audit-friendly
+Licensing & Distribution
+This software is licensed per organization or per deployment, with optional annual support contracts.
+For licensing, integrations, or OEM distribution, contact:
+📧 DEVIN-ROYAL@PROGRAMMER.NET
+📞 (650)360-7400
